@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@types/react", [
         ["npm:18.0.25", {
-          "packageLocation": "./.yarn/cache/@types-react-npm-18.0.25-0d729c976f-231d658c45.zip/node_modules/@types/react/",
+          "packageLocation": "./.yarn/unplugged/@types-react-npm-18.0.25-0d729c976f/node_modules/@types/react/",
           "packageDependencies": [
             ["@types/react", "npm:18.0.25"],
             ["@types/prop-types", "npm:15.7.5"],

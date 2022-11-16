@@ -82,6 +82,8 @@ __metadata:
   dependenciesMeta:
     "@types/node@18.11.9":
       unplugged: true
+    "@types/react@18.0.25":
+      unplugged: true
   languageName: unknown
   linkType: soft
 
