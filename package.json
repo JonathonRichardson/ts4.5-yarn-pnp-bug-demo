@@ -3,5 +3,9 @@
   "packageManager": "yarn@3.0.2",
   "dependencies": {
     "typescript": "4.4"
+  },
+  "scripts": {
+    "build": "yarn tsc src/main.ts",
+    "dev": "yarn build && node src/main.js"
   }
 }
