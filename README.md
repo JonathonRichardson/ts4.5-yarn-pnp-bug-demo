@@ -4,7 +4,13 @@ This purpose of this repo is to demonstrate issues with Yarn PnP and Typescript 
 
 ## Running the Project
 
-To run the project, execute the following:
+To run the project, first install the packages:
+
+```
+yarn install
+```
+
+Then, execute the following:
 
 ```
 yarn dev

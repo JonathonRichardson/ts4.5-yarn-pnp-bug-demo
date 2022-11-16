@@ -8,5 +8,10 @@
   "scripts": {
     "build": "yarn tsc",
     "dev": "yarn build && node src/main.js"
+  },
+  "dependenciesMeta": {
+    "@types/node@18.11.9": {
+      "unplugged": true
+    }
   }
 }

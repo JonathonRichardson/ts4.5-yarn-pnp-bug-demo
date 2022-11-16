@@ -18,6 +18,9 @@ __metadata:
   dependencies:
     "@types/node": ^18.11.9
     typescript: 4.5
+  dependenciesMeta:
+    "@types/node@18.11.9":
+      unplugged: true
   languageName: unknown
   linkType: soft
 

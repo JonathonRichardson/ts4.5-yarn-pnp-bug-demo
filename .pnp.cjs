@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["@types/node", [
         ["npm:18.11.9", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.9-d21dd6ec05-cc0aae109e.zip/node_modules/@types/node/",
+          "packageLocation": "./.yarn/unplugged/@types-node-npm-18.11.9-d21dd6ec05/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:18.11.9"]
           ],
