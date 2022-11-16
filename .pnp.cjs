@@ -35,9 +35,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/node", "npm:18.11.9"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=32657b"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["@types/node", [
+        ["npm:18.11.9", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.9-d21dd6ec05-cc0aae109e.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:18.11.9"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["ts4.5-yarn-pnp-bug-demo", [
@@ -45,6 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["ts4.5-yarn-pnp-bug-demo", "workspace:."],
+            ["@types/node", "npm:18.11.9"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=32657b"]
           ],
           "linkType": "SOFT",

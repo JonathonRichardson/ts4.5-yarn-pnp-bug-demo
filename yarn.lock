@@ -5,10 +5,18 @@ __metadata:
   version: 4
   cacheKey: 8
 
+"@types/node@npm:^18.11.9":
+  version: 18.11.9
+  resolution: "@types/node@npm:18.11.9"
+  checksum: cc0aae109e9b7adefc32eecb838d6fad931663bb06484b5e9cbbbf74865c721b03d16fd8d74ad90e31dbe093d956a7c2c306ba5429ba0c00f3f7505103d7a496
+  languageName: node
+  linkType: hard
+
 "ts4.5-yarn-pnp-bug-demo@workspace:.":
   version: 0.0.0-use.local
   resolution: "ts4.5-yarn-pnp-bug-demo@workspace:."
   dependencies:
+    "@types/node": ^18.11.9
     typescript: 4.4
   languageName: unknown
   linkType: soft
